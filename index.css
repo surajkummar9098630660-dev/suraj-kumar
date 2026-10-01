@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #080808;
+  color: white;
+}
+
+.card {
+  background: #141414;
+  border: 1px solid #222;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.card:hover {
+  border-color: #333;
+}
+
+.badge-connected {
+  background: #052e16;
+  color: #22c55e;
+  border: 1px solid #14532d;
+}
+
+.badge-nobuild {
+  background: #3f1d1d;
+  color: #ef4444;
+  border: 1px solid #7f1d1d;
+}
+
+.sidebar-item {
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #888;
+  transition: 0.2s;
+  margin-bottom: 4px;
+}
+
+.sidebar-item:hover {
+  background: #1a1a1a;
+  color: white;
+}
+
+.sidebar-item.active {
+  background: white;
+  color: black;
+  font-weight: 700;
+}
